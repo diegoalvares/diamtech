@@ -1,0 +1,9 @@
+main{
+    margin: 20px;
+}
+
+main>#aulas>ol{
+    background-color: white;
+    width: 30vw;
+    font-size: 30px;
+}

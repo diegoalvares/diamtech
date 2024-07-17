@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom, black, var(--roxo));
+    height: 100vh;
+}
+
+:root{
+    --roxo: rgb(94, 18, 84);
+    --roxo2:rgb(31, 5, 177);
+}
