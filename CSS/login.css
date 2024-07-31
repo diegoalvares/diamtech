@@ -1,0 +1,65 @@
+h1{
+    color: aliceblue;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 60px;
+    text-shadow: 2px 2px 2px rgb(78, 78, 78);
+    margin-bottom: 60px;
+}
+
+form{
+    border: solid aliceblue 4px;
+    width: 1200px;
+    margin: auto;
+    height: 800px;
+    border-radius: 60px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 20px rgb(192, 129, 243);
+}
+
+form>input{
+    font-size: 40px;
+    width: 800px;
+    margin: 20px;
+    margin-left: 200px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+    transition: 0.5s;
+}
+
+form>input::placeholder{
+    color: rgb(126, 105, 145);
+}
+
+form>input:hover{
+    box-shadow: 1px 1px 20px rgb(156, 54, 240);
+}
+
+form>input:focus{
+    box-shadow: 1px 1px 20px rgb(193, 117, 255);
+}
+
+form>button{
+    font-size: 40px;
+    padding: 7px 352px 7px 352px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: solid blueviolet 3px;
+    color: aliceblue;
+    margin-left: 200px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+form>button:hover{
+    background-color: transparent;
+    border: solid aliceblue 3px;
+    box-shadow: 0px 0px 15px rgb(195, 121, 255);
+}
+
+form>button:active{
+    background-color: transparent;
+    border: solid aliceblue 3px;
+}
