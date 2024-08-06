@@ -3,8 +3,8 @@ user = document.getElementById('usuario')
 pass = document.getElementById('senha')
 
 login.addEventListener('click', function(){
-    if (user.value.toUpperCase() == 'JOSIFONO' & pass.value == 'josid2024' || user.value.toUpperCase() == 'DIEGO' & pass.value =='05101994'){
-        window.location.assign('index.html')
+    if (user.value.toUpperCase() == 'JOSIFONO' & pass.value == 'josi' || user.value.toUpperCase() == 'DIEGO' & pass.value =='05101994'){
+        window.location.assign('sala.html')
     }
 
     else{
