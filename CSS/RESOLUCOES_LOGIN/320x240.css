@@ -1,49 +1,48 @@
 @media (min-width: 320px){
-    body{
-        height: 400vh;
-    }
-
     form{
-        width: 600px;
-        height: 800px;
-        margin: 10px;
-        margin-left: 30px;
-        margin-top: 60px;
+        width: 300px;
+        height: 340px;
+        margin-top: 20px;
     }
 
     form>h1{
-        margin-top: 40px;
-        font-size: 40px;
+        margin-top: 20px;
+        font-size: 20px;
     }
 
-    #desenho_login{
-       margin-top: 40px; 
+    #desenho_login{ 
        margin-bottom: 60px;
-       width: 250px;
-       height: 250px;
-       margin-bottom: 15px;
+       width: 80px;
+       height: 80px;
+       margin-top: -10px;
+       margin-bottom: 5px;
     }
 
     #circulo{
-        width: 60px;
-        height: 60px;
-        margin-top: 40px;   
+        width: 20px;
+        height: 20px;
+        margin-top: 7px;   
+        border: solid rgb(155, 87, 219) 5px;
     }
     
     #meia_lua{
-        width: 120px;
-        height: 60px;
+        width: 40px;
+        height: 20px;
         margin-top: -5px;
+        border: solid rgb(155, 87, 219) 5px;
     }
 
     form>input{
-        width: 440px;
-        margin-left: 70px;
+        width: 240px;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-bottom: -10px;
     }
 
     form>button{
-        padding: 7px 173px 7px 173px;
-        margin-left: 70px;
+        padding: 7px 100px 7px 100px;
+        margin-left: 20px;
+        font-size: 20px;
         text-align: center;
     }
 }
