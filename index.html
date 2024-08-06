@@ -1,42 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-------------LINKS CSS GERAL---------------------->
+    <!-------------CSS GERAL---------------------------->
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/aulas.css">
+    <link rel="stylesheet" href="CSS/login.css">
     <!-------------------------------------------------->
 
-    <title>DIEGO ALVARES TECH - AULAS</title>
+    <!-------------CSS RESOLUCOES---------------------------->
+    <link rel="stylesheet" href="CSS/RESOLUCOES_LOGIN/320x240.css">
+    <link rel="stylesheet" href="CSS/RESOLUCOES_LOGIN/1024x768.css">
+    <!-------------------------------------------------->
+
+    <title>Diego Alvares de Macedo Tech - Login </title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>Início</li>
-                <li id="sair">Sair</li>
-            </ul>
-        </nav>
-    </header>
-
     <main>
-        <section id="aulas">
-            
-            
-        </section>
+        <div id="foto">
+            <img src="" alt="">
+        </div>
 
-        <section id="video">
+        <div id="container">
+            <form>
+                <h1>Faça seu Login</h1>
+                <div id="desenho_login">
+                    <div id="circulo"></div>
 
-        </section>
+                    <div id="meia_lua"></div>
+                </div>
+                <input type="text" id="usuario" placeholder=" Nome"><br>
+                <input type="password" id="senha" placeholder="Senha"><br>
+                <button type="button" id="entrar">Entrar</button>
+            </form>
+        </div>
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 
-<script src="JS/index.js"></script>
+<script src="JS/login.js"></script>
 </html>
