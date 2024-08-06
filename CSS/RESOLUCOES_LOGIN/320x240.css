@@ -1,33 +1,33 @@
 @media (min-width: 320px){
     form{
         width: 300px;
-        height: 350px;
+        height: 390px;
         margin-top: 150px;
     }
 
     form>h1{
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     #desenho_login{ 
        margin-bottom: 60px;
-       width: 80px;
-       height: 80px;
+       width: 110px;
+       height: 110px;
        margin-top: -10px;
        margin-bottom: 5px;
     }
 
     #circulo{
-        width: 20px;
-        height: 20px;
-        margin-top: 7px;   
+        width: 30px;
+        height: 30px;
+        margin-top: 12px;   
         border: solid rgb(155, 87, 219) 5px;
     }
     
     #meia_lua{
-        width: 40px;
-        height: 20px;
+        width: 50px;
+        height: 30px;
         margin-top: -5px;
         border: solid rgb(155, 87, 219) 5px;
     }
